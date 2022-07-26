@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Application</title>
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Stagingkonfiguration erfassen - Client</h1>
+
+        <div class="info">
+            <h3>Info:</h3>
+            <p>Bitte erfassen Sie die Konfiguration für den neuen Client</p>
+        </div>
+
+        <h2>Bitte Konfiguration eingeben.</h2>
+
+        <form action="">
+
+            <div class="input-box">
+                <h3>Name und MAC-Adresse</h3>
+                <div class="name">
+                    <label for="hostname">Hostname:</label>
+                    <input type="text" id="hostname">
+                </div>
+                <div class="mac">
+                    <label for="macname">MAC-Adresse</label>
+                    <input type="text" id="macname">
+                </div>
+            </div>
+
+            <div class="input-box">
+                <h3>Betriebssystem</h3>
+                <h4>Betriebssystem dass auf dem Client installiert wird:</h4>
+                <select>
+                    <option>Windows 10</option>
+                    <option>Windows 11</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <h3>Client-Typ</h3>
+                <h4>Bitte wählen Sie den Client-Typ:</h4>
+                <select>
+                    <option>Büro</option>
+                    <option>WC</option>
+                </select>
+            </div>
+
+        </form>
+
+    </main>
+    
+</body>
+
+</html>

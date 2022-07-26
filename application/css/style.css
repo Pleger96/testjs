@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+main {
+    padding: 5rem 5vw 5rem 5vw;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 3rem;
+    padding: 5rem;
+    background-color: lightblue;
+    margin: 0 0 3rem 0;
+    box-shadow: 0 0 1rem 0 #000000;
+}
+
+.info h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 0 3rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+form .input-box {
+    border: 3px solid #000000;
+    border-radius: 1rem;
+    padding: 5rem;
+    background-color: lightgray;
+    box-shadow: 0 0 1rem 0 #000000;
+}
+
+form .input-box h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 0 3rem 0;
+}
+
+form .input-box .name,
+form .input-box .mac {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
